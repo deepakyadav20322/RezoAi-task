@@ -60,7 +60,7 @@ const productSlice = createSlice({
         }    });
       state.filteredProducts = newProductData;
     },
-
+ 
     filterWithCategory(state,action){
       const category = action.payload;
       if(category==('all' || category=='' )){
